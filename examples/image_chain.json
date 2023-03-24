@@ -1,0 +1,16 @@
+{
+  "handle": "image-chain",
+  "steps": [
+    {
+      "handle": "create-prompt",
+      "plugin": "gpt-3",
+      "plugin_config": { "max_words": 100 },
+      "prompt": "Write a generative image prompt about {topic}, suitable for a mysterious storybook cover."
+    },
+    {
+      "handle": "generate-image",
+      "plugin": "dall-e",
+      "prompt": "{create-prompt}"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "single-prompt",
+  "steps": [
+    {
+      "handle": "tell-joke",
+      "plugin": "gpt-3",
+      "plugin_config": { "max_words":  10 },
+      "prompt": "Tell me a joke about {topic}"
+    },
+    {
+      "handle": "judge-joke",
+      "plugin": "gpt-3",
+      "plugin_config": { "max_words":  10 },
+      "prompt": "A comedian told a joke:\n\n{tell-joke}\n\n Is it funny? YES/NO:"
+    }
+  ]
+}
