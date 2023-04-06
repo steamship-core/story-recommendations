@@ -1,12 +1,11 @@
 {
 	"type": "package",
 	"handle": "story-recommendations",
-	"version": "1.0.0-rc.1",
+	"version": "1.0.5",
 	"description": "",
 	"author": "",
 	"entrypoint": "api.handler",
 	"public": true,
-	"plugin": null,
 	"build_config": {
 		"ignore": [
 			"tests",
@@ -18,16 +17,15 @@
 		"tagline": null,
 		"tagline2": null,
 		"usefulFor": null,
-		"videoUrl": null,
-		"githubUrl": null,
-		"demoUrl": null,
-		"blogUrl": null,
-		"jupyterUrl": null,
+		"videoURL": null,
+		"githubURL": null,
+		"demoURL": null,
+		"jupyterURL": null,
 		"authorGithub": null,
 		"authorName": null,
 		"authorEmail": null,
 		"authorTwitter": null,
-		"authorUrl": null,
+		"authorURL": null,
 		"tags": [
 			"Prompt API",
 			"Image Generator"

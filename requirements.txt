@@ -1,2 +1,3 @@
-steamship===2.3.13
+steamship===2.14.2
 openai==0.25.0
+termcolor
