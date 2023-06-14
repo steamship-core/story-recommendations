@@ -7,7 +7,7 @@ from steamship.invocable import post, PackageService
 PROMPT_LOCATION = """
 Your goal is to extract information from the user's input that matches the form described below. Extract an Output with <location> for each Input.
   
-<location>: Generate the location in the world of the following input. Only repond with the city and country.
+<location>: Generate the location in the world of the following input. Only respond with the city and country.
 
 Input:
 Ruriko visits robot versions of her former bandmates, who are kept in a sex hotel. Through talking with them, she revisits the day all of them died, leaving her the sole survivor. 
