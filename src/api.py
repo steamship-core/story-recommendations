@@ -32,7 +32,7 @@ Output:
 PROMPT_AUDIENCE = """
 Your goal is to extract information from the user's input that matches the form described below. Extract an Output with <audience> for each Input.
   
-<audience>: Extract the target audience of the following input. Only repond with the group of people that could be interested in this input
+<audience>: Extract the target audience of the following input. Only respond with the group of people that could be interested in this input
 
 Input:
 Ruriko visits robot versions of her former bandmates, who are kept in a sex hotel. Through talking with them, she revisits the day all of them died, leaving her the sole survivor. 
